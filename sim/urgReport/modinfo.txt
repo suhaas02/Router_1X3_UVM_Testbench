@@ -1,0 +1,77 @@
+===============================================================================
+Module : top
+===============================================================================
+SCORE  ASSERT 
+ 44.44  44.44 
+
+Module self-instances :
+
+SCORE  ASSERT NAME 
+ 44.44  44.44 top  
+
+
+
+-------------------------------------------------------------------------------
+Assert Coverage for Module : top
+                 Total Attempted Percent Succeeded/Matched Percent 
+Assertions       0     0                 0                         
+Cover properties 9     9         100.00  4                 44.44   
+Cover sequences  0     0                 0                         
+Total            9     9         100.00  4                 44.44   
+
+
+
+-------------------------------------------------------------------------------
+
+Cover Directives for Properties: Details
+
+Name           Attempts Matches Incomplete 
+pkt_valid      511      7       0          
+read_enb1      511      7       0          
+read_enb2      511      0       0          
+read_enb3      511      0       0          
+stable_data_in 511      73      0          
+valid_out      511      7       0          
+vld_out_read1  511      0       0          
+vld_out_read2  511      0       0          
+vld_out_read3  511      0       0          
+
+
+-------------------------------------------------------------------------------
+===============================================================================
+Module Instance : top
+===============================================================================
+
+Instance :
+
+SCORE  ASSERT 
+ 44.44  44.44 
+
+
+Instance's subtree :
+
+SCORE  ASSERT 
+ 44.44  44.44 
+
+
+Module : 
+
+SCORE  ASSERT NAME 
+ 44.44  44.44 top  
+
+
+Parent : 
+
+none
+----------------
+
+
+Subtrees :
+
+
+no children
+----------------
+
+
+-------------------------------------------------------------------------------
+Since this is the module's only instance, the coverage report is the same as for the module.

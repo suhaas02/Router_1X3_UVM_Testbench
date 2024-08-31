@@ -1,0 +1,156 @@
+global coverage_group 0 router_pkg::scoreboard::source __coverage_scoreboard.source unused_scoreboard_source_loop_label router_pkg 0 1 0 0 0  ( 0 
+)
+ 1 1
+ 0 63 /home1/BPRN08/VegiJ/router_verification/sim/../tb/scoreboard.sv
+ 15 0 0 0 1 0 0 0 0  1
+0
+0 0
+ 0
+ 0
+ 0
+ 0
+ 0
+ 0
+ 0
+ 0 0
+ 0
+ 0 0
+ 0 0
+ 0
+ 0
+ 0
+ 0
+ 0
+ 0
+ 0
+ 0
+ 0
+0
+0
+0
+64
+0
+ 0
+
+2
+0
+0
+0
+ 7 address 16 0 0 0 0 0 43 scoreboard::router_pkg_scoreboard_source_fn 43 scoreboard::router_pkg_scoreboard_source_fn 0 0 0 0 0 0 0 0 0 0 0 -1 0 0 -1 0 0 0 -1 2 2 0 0 1 0 0 0 0
+ 0
+ 0
+ 0
+ 0
+ 0
+ 0
+ 0 0
+ 0
+ 0
+ 0
+ 0
+ 0
+ 0
+ 0
+ 1 1 3 0 0 1 1 3 add 17 0 0 3 0 0 0 0 0 0 0 0 0 0 -1 0 0 -1 0 0 1 1 1 45 scoreboard::router_pkg_scoreboard_source_fn_0 0 0 0 0 0 0 0
+ 0
+
+ 12 payload_size 18 0 0 0 0 0 45 scoreboard::router_pkg_scoreboard_source_fn_1 45 scoreboard::router_pkg_scoreboard_source_fn_1 0 0 0 0 0 0 0 0 0 0 0 -1 0 0 -1 0 0 0 -1 2 6 0 0 1 0 0 0 0
+ 0
+ 0
+ 0
+ 0
+ 0
+ 0
+ 0 0
+ 0
+ 0
+ 0
+ 0
+ 0
+ 0
+ 0
+ 3 1 1 0 0 1 1 9 small_pkt 19 0 0 1 0 0 0 0 0 0 0 0 0 0 -1 0 0 -1 0 0 1 1 1 45 scoreboard::router_pkg_scoreboard_source_fn_2 0 45 scoreboard::router_pkg_scoreboard_source_fn_3 0 0 0 0 0
+ 0
+ 1 1 0 0 1 1 7 mid_pkt 20 0 0 1 0 0 0 0 0 0 0 0 0 0 -1 0 0 -1 0 0 1 1 1 45 scoreboard::router_pkg_scoreboard_source_fn_4 0 45 scoreboard::router_pkg_scoreboard_source_fn_5 0 0 0 0 0
+ 0
+ 1 1 0 0 1 1 7 big_pkt 21 0 0 1 0 0 0 0 0 0 0 0 0 0 -1 0 0 -1 0 0 1 1 1 45 scoreboard::router_pkg_scoreboard_source_fn_6 0 45 scoreboard::router_pkg_scoreboard_source_fn_7 0 0 0 0 0
+ 0
+
+end_coverage_group
+global coverage_group 0 router_pkg::scoreboard::destination __coverage_scoreboard.destination unused_scoreboard_destination_loop_label router_pkg 0 1 0 0 0  ( 0 
+)
+ 0 29 0 0 0 1 0 0 0 0  1
+0
+0 0
+ 0
+ 0
+ 0
+ 0
+ 0
+ 0
+ 0
+ 0 0
+ 0
+ 0 0
+ 0 0
+ 0
+ 0
+ 0
+ 0
+ 0
+ 0
+ 0
+ 0
+ 0
+0
+0
+0
+64
+0
+ 0
+
+2
+0
+0
+0
+ 7 address 30 0 0 0 0 0 48 scoreboard::router_pkg_scoreboard_destination_fn 48 scoreboard::router_pkg_scoreboard_destination_fn 0 0 0 0 0 0 0 0 0 0 0 -1 0 0 -1 0 0 0 -1 2 2 0 0 1 0 0 0 0
+ 0
+ 0
+ 0
+ 0
+ 0
+ 0
+ 0 0
+ 0
+ 0
+ 0
+ 0
+ 0
+ 0
+ 0
+ 1 1 3 0 0 1 1 3 add 31 0 0 3 0 0 0 0 0 0 0 0 0 0 -1 0 0 -1 0 0 1 1 1 50 scoreboard::router_pkg_scoreboard_destination_fn_0 0 0 0 0 0 0 0
+ 0
+
+ 12 payload_size 32 0 0 0 0 0 50 scoreboard::router_pkg_scoreboard_destination_fn_1 50 scoreboard::router_pkg_scoreboard_destination_fn_1 0 0 0 0 0 0 0 0 0 0 0 -1 0 0 -1 0 0 0 -1 2 6 0 0 1 0 0 0 0
+ 0
+ 0
+ 0
+ 0
+ 0
+ 0
+ 0 0
+ 0
+ 0
+ 0
+ 0
+ 0
+ 0
+ 0
+ 3 1 1 0 0 1 1 9 small_pkt 33 0 0 1 0 0 0 0 0 0 0 0 0 0 -1 0 0 -1 0 0 1 1 1 50 scoreboard::router_pkg_scoreboard_destination_fn_2 0 50 scoreboard::router_pkg_scoreboard_destination_fn_3 0 0 0 0 0
+ 0
+ 1 1 0 0 1 1 7 mid_pkt 34 0 0 1 0 0 0 0 0 0 0 0 0 0 -1 0 0 -1 0 0 1 1 1 50 scoreboard::router_pkg_scoreboard_destination_fn_4 0 50 scoreboard::router_pkg_scoreboard_destination_fn_5 0 0 0 0 0
+ 0
+ 1 1 0 0 1 1 7 big_pkt 35 0 0 1 0 0 0 0 0 0 0 0 0 0 -1 0 0 -1 0 0 1 1 1 50 scoreboard::router_pkg_scoreboard_destination_fn_6 0 50 scoreboard::router_pkg_scoreboard_destination_fn_7 0 0 0 0 0
+ 0
+
+end_coverage_group

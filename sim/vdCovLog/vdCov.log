@@ -1,0 +1,13 @@
+Limited Design Loaded: 
+Warning-[UCAPI-LDAST] Limited design loaded
+  Only the design information inferred from assertion database is available 
+  since the information containing the full compile-time design is not 
+  available in the base coverage directory 'merged_dir.vdb'. The report 
+  contains only a partial hierarchy - the parts containing assertions - but 
+  all coverage scores are correct.
+  This situation can sometimes happen if you have only assertion coverage 
+  enabled. If you need the full hierarchical report, you have to use at least 
+  one '-cm' option at compile-time.
+The design 'merged_dir.vdb' was loaded successfully.
+The following test is loaded from "merged_dir.vdb",
+    merged_dir/merged_test

@@ -1,0 +1,9 @@
+{"vcs1":{"timestamp_begin":1724829816.323626574, "rt":14.79, "ut":14.83, "st":0.37}}
+{"vcselab":{"timestamp_begin":1724829831.189184954, "rt":0.35, "ut":0.25, "st":0.07}}
+{"link":{"timestamp_begin":1724829831.592223982, "rt":0.89, "ut":0.65, "st":0.22}}
+{"SNPS_VCS_INTERNAL_ROOT_START_TIME": 1724829815.582701718}
+{"VCS_COMP_START_TIME": 1724829815.582701718}
+{"VCS_COMP_END_TIME": 1724829835.533880741}
+{"VCS_USER_OPTIONS": "-l vcs.log -timescale=1ns/1ps -sverilog -ntb_opts uvm -debug_access+all -full64 -kdb -lca -P /home/cad/eda/SYNOPSYS/VERDI_2022/verdi/T-2022.06-SP1/share/PLI/VCS/LINUX64/novas.tab /home/cad/eda/SYNOPSYS/VERDI_2022/verdi/T-2022.06-SP1/share/PLI/VCS/LINUX64/pli.a ../rtl/dest_if.sv ../rtl/router_fifo.v ../rtl/router_fsm.v ../rtl/router_reg.v ../rtl/router_sync.v ../rtl/router_top.v ../rtl/source_if.sv +incdir+../tb +incdir+../test +incdir+../source_agt +incdir+../dest_agt ../test/router_pkg.sv ../tb/top.sv"}
+{"vcs1": {"peak_mem": 1768499}}
+{"stitch_vcselab": {"peak_mem": 1768906}}

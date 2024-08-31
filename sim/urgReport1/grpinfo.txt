@@ -1,0 +1,178 @@
+Group : router_pkg::scoreboard::source
+
+===============================================================================
+Group : router_pkg::scoreboard::source
+===============================================================================
+SCORE  WEIGHT GOAL   AT LEAST AUTO BIN MAX PRINT MISSING 
+ 50.00 1      100    1        64           64            
+
+
+Source File(s) : 
+
+/home1/BPRN08/VegiJ/router_verification/sim/../tb/scoreboard.sv
+
+
+
+-------------------------------------------------------------------------------
+
+Summary for Group   router_pkg::scoreboard::source
+
+
+
+CATEGORY  EXPECTED UNCOVERED COVERED PERCENT 
+Variables 6        3         3       50.00   
+
+
+Variables for Group  router_pkg::scoreboard::source
+
+
+VARIABLE     EXPECTED UNCOVERED COVERED PERCENT GOAL WEIGHT AT LEAST AUTO BIN MAX COMMENT 
+address      3        2         1       33.33   100  1      1        4                    
+payload_size 3        1         2       66.67   100  1      1        0                    
+
+
+-------------------------------------------------------------------------------
+
+Summary for Variable address
+
+
+CATEGORY                     EXPECTED UNCOVERED COVERED PERCENT 
+Automatically Generated Bins 3        2         1       33.33   
+
+
+Automatically Generated Bins for address
+
+
+Uncovered bins
+
+NAME                COUNT AT LEAST NUMBER 
+[auto[1] - auto[2]] --    --       2      
+
+
+Excluded/Illegal bins
+
+NAME      COUNT STATUS  
+add       0     Illegal 
+[auto[3]] 0     Illegal 
+
+
+Covered bins
+
+NAME    COUNT AT LEAST 
+auto[0] 3     1        
+
+
+-------------------------------------------------------------------------------
+
+Summary for Variable payload_size
+
+
+CATEGORY          EXPECTED UNCOVERED COVERED PERCENT 
+User Defined Bins 3        1         2       66.67   
+
+
+User Defined Bins for payload_size
+
+
+Uncovered bins
+
+NAME    COUNT AT LEAST NUMBER 
+big_pkt 0     1        1      
+
+
+Covered bins
+
+NAME      COUNT AT LEAST 
+mid_pkt   2     1        
+small_pkt 1     1        
+
+
+Group : router_pkg::scoreboard::destination
+
+===============================================================================
+Group : router_pkg::scoreboard::destination
+===============================================================================
+SCORE  WEIGHT GOAL   AT LEAST AUTO BIN MAX PRINT MISSING 
+ 50.00 1      100    1        64           64            
+
+
+Source File(s) : 
+
+/home1/BPRN08/VegiJ/router_verification/sim/../tb/scoreboard.sv
+
+
+
+-------------------------------------------------------------------------------
+
+Summary for Group   router_pkg::scoreboard::destination
+
+
+
+CATEGORY  EXPECTED UNCOVERED COVERED PERCENT 
+Variables 6        3         3       50.00   
+
+
+Variables for Group  router_pkg::scoreboard::destination
+
+
+VARIABLE     EXPECTED UNCOVERED COVERED PERCENT GOAL WEIGHT AT LEAST AUTO BIN MAX COMMENT 
+address      3        2         1       33.33   100  1      1        4                    
+payload_size 3        1         2       66.67   100  1      1        0                    
+
+
+-------------------------------------------------------------------------------
+
+Summary for Variable address
+
+
+CATEGORY                     EXPECTED UNCOVERED COVERED PERCENT 
+Automatically Generated Bins 3        2         1       33.33   
+
+
+Automatically Generated Bins for address
+
+
+Uncovered bins
+
+NAME                COUNT AT LEAST NUMBER 
+[auto[1] - auto[2]] --    --       2      
+
+
+Excluded/Illegal bins
+
+NAME      COUNT STATUS  
+add       0     Illegal 
+[auto[3]] 0     Illegal 
+
+
+Covered bins
+
+NAME    COUNT AT LEAST 
+auto[0] 3     1        
+
+
+-------------------------------------------------------------------------------
+
+Summary for Variable payload_size
+
+
+CATEGORY          EXPECTED UNCOVERED COVERED PERCENT 
+User Defined Bins 3        1         2       66.67   
+
+
+User Defined Bins for payload_size
+
+
+Uncovered bins
+
+NAME    COUNT AT LEAST NUMBER 
+big_pkt 0     1        1      
+
+
+Covered bins
+
+NAME      COUNT AT LEAST 
+mid_pkt   2     1        
+small_pkt 1     1        
+
+

@@ -1,0 +1,43 @@
+Assertions
+
+
+Assertions by Category
+           ASSERT PROPERTIES SEQUENCES
+Total           0          9         0
+Category 0      0          9         0
+
+-------------------------------------------------------------------------------
+
+Assertions by Severity
+           ASSERT PROPERTIES SEQUENCES
+Total           0          9         0
+Severity 0      0          9         0
+
+-------------------------------------------------------------------------------
+
+Summary for Cover Properties
+             NUMBER PERCENT
+Total Number      9  100.00
+Uncovered         5   55.56
+Matches           4   44.44
+
+-------------------------------------------------------------------------------
+
+Detail Report for Cover Properties
+
+Cover Properties Uncovered:
+ COVER PROPERTIES CATEGORY SEVERITY ATTEMPTS MATCHES INCOMPLETE
+top.read_enb2            0        0      201       0          0
+top.read_enb3            0        0      201       0          0
+top.vld_out_read1        0        0      201       0          0
+top.vld_out_read2        0        0      201       0          0
+top.vld_out_read3        0        0      201       0          0
+
+Cover Properties Matches:
+ COVER PROPERTIES  CATEGORY SEVERITY ATTEMPTS MATCHES INCOMPLETE
+top.pkt_valid             0        0      201       2          0
+top.read_enb1             0        0      201       2          0
+top.stable_data_in        0        0      201      32          0
+top.valid_out             0        0      201       2          0
+
+

@@ -1,0 +1,14 @@
+Tests
+
+Total Coverage Summary 
+SCORE  ASSERT GROUP  
+ 55.56  44.44  66.67 
+
+
+Total tests in report: 3
+-------------------------------------------------------------------------------
+Data from the following tests was used to generate this report
+mem_cov1/test 
+mem_cov2/test 
+mem_cov3/test 
+

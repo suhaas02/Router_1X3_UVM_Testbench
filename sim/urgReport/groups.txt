@@ -1,0 +1,13 @@
+Testbench Group List
+
+Total Groups Coverage Summary 
+SCORE  WEIGHT 
+ 66.67 1      
+
+
+Total groups in report: 2
+-------------------------------------------------------------------------------
+SCORE  WEIGHT GOAL   AT LEAST PER INSTANCE AUTO BIN MAX PRINT MISSING COMMENT NAME                                
+ 66.67 1      100    1        0            64           64                    router_pkg::scoreboard::destination 
+ 66.67 1      100    1        0            64           64                    router_pkg::scoreboard::source      
+
